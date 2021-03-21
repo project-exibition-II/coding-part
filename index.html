@@ -1,51 +1,75 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>home</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-  </head>
-  <body>
-    <div class="header">
-    <a href="index page.html" class="header-logo">project guider</a>
-    <div class="header-list">
-      <ul>
-        <li>HOME</li>
-        <li>COMPUTER SCIENCE</li>
-        <li>ECE</li>
-        <li>CIVIL</li>
-        <li>MECHANICAL</li>
-        <li>ABOUT US</li>
-        <li>SEARCH</li>
-      </ul>
 
-    </div>
-    </div>
-    <div class="main">
-      write the code here...!
+<head>
+     <meta charset="utf-8">
+     <title>home</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
 
-    </div>
-    <footer>
-      <div class="contact-form">
-      <h3 class="section-title">Contact us</h3>
-      <p>Email (Required)</p>
-      <input/ class="siz-1">
-      <p>Message (Required)</p>
-      <textarea></textarea>
-      <p>* Required fields must be filled</p>
-      <input type="submit" class="contact-submit" value="send" />
-    </div>
-    <div class="address">
-      <h3>Address</h3>
-      VIT boys hostel, VIT-bhopal, kotri kalan,sehore,madhya pradesh 466114
-    </div>
-    <div class="footer-logo">Project guider</div>
-  </footer>
+<body>
+     <div class="header">
+          <a href="#footer" class="header-logo">project guider</a>
+          <div class="header-list">
+               <ul>
+                    <li>HOME</li>
+                    <li>COMPUTER SCIENCE</li>
+                    <li>ECE</li>
+                    <li>CIVIL</li>
+                    <li>MECHANICAL</li>
+                    <li>ABOUT US</li>
+                    <li>SEARCH</li>
+               </ul>
 
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+          </div>
+     </div>
+     <div class="main">
+          write the code here...!
+
+     </div>
+     <footer id="footer">
+          <div class="footer__sub">
+               <div class="contact-form">
+                    <h3 class="section-title">Contact us</h3>
+                    <!-- <p>Email (Required)</p>
+                    <input class="siz-1">
+                    <p>Message (Required)</p>
+                    <textarea></textarea>
+                    <p>* Required fields must be filled</p> -->
+                    <div class="mb-3">
+                         <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                         <input type="email" class="form-control" id="exampleFormControlInput1"
+                              placeholder="name@example.com" required>
+                    </div>
+                    <div class="mb-3">
+                         <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <!-- <input type="submit" class="contact-submit" value="send" /> -->
+                    <button class="btn btn-primary">Send</button>
+               </div>
+               <div class="new-pro">
+                    <h1>Trending Projects</h1>
+                    <ul>
+                         <li>Linux</li>
+                         <li>React</li>
+                         <li>Vue</li>
+                         <li>TensorFlow</li>
+                    </ul>
+               </div>
+               <div class="address">
+                    <h3>Address</h3>
+                    VIT boys hostel, VIT-bhopal, kotri kalan,sehore,madhya pradesh 466114
+                    <div class="footer-logo">Project guider</div>
+               </div>
+          </div>
+     </footer>
+
+     <script src="js/jquery-2.1.4.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
+
 </html>
