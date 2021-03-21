@@ -125,3 +125,25 @@ body {
         /* margin-left: 0; */
         padding-left: 0.5em;
    }
+
+   #carouselExampleControls{
+        width: 80%;
+        margin-inline: auto;
+        margin-top: 3em;
+        height: 100%;
+   }
+
+   .icons{
+        text-align: center;
+        font-size: 25px;
+        margin: 1em auto;
+   }
+
+   .icons i {
+        margin-left: 1em;
+   }
+
+   .icons > i:hover{
+        color: rgb(204, 202, 202);
+        cursor: pointer;
+   }
